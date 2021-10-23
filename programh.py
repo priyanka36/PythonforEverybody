@@ -82,4 +82,3 @@ for tag in tags :
             count+=1                       
     count+=1
 
-print(list_data)
