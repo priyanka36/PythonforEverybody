@@ -25,3 +25,8 @@ print(type(df.iloc[0]))
 print(df.iloc[0])
 print(df.iloc[:3])
 print(df.iloc[True,False,True])
+
+
+data = {'a': 1, 'b': 2, 'c': 3}
+ser = pd.Series(data=d, index=['a','b','c'])
+print(ser)
